@@ -4,7 +4,7 @@ public class Login {
     private static final String UTILISATEUR = "scott";
     private static final String PASSWORD = "tiger";
 
-    public static void main(String[] args) throws WrongLoginException, WrongPwdException, WrongInputLength {
+    public static void main(String[] args) {
         boolean ok = false;
         do{
             try {
